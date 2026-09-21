@@ -5,11 +5,20 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+      day: "tuesday"
+      time: "10:15"
+      timezone: "Europe/London"
   - package-ecosystem: npm
     directory: "/javascript"
     schedule:
       interval: "weekly"
+      day: "tuesday"
+      time: "10:15"
+      timezone: "Europe/London"
   - package-ecosystem: bundler
     directory: "/ruby"
     schedule:
       interval: "weekly"
+      day: "tuesday"
+      time: "10:15"
+      timezone: "Europe/London"
